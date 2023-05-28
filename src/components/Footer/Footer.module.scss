@@ -1,0 +1,68 @@
+.title-list {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 1.25rem;
+  margin-top: 2.5rem;
+}
+
+.nav-list ul li {
+  display: flex;
+  font-size: 0.75rem;
+  margin-bottom: 0.75rem;
+
+  a:hover {
+    color: orangered;
+  }
+}
+
+.nav-list,
+.nav-cards {
+  width: 250px;
+}
+.nav-cards ul li {
+  width: 3.75rem;
+  height: 1.875rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.25rem;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 0.125rem;
+}
+
+.img-qr {
+  height: 96px;
+  width: 96px;
+  margin-right: 0.75rem;
+  padding: 0.25rem;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+
+.img-app {
+  display: inline-block;
+  width: 76px;
+  height: 24px;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+
+.nation {
+  padding: 0 5px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+
+  &:last-child {
+    border-right: 0px solid rgba(0, 0, 0, 0.2);
+  }
+}
+
+.nav2 {
+  padding: 42px 0 37px 0;
+}
